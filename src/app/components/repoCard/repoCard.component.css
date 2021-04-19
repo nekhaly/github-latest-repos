@@ -11,13 +11,16 @@
   align-items: center;
   padding: 10px;
 }
+.detailsContainer{
+  margin-left: 10px;;
+}
 .statsContainer {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
 }
 .statsContainer > div {
-  margin: 0 0 10px 10px;
+  margin: 0 10px 10px 0;
 }
 
 .nameContainer {
