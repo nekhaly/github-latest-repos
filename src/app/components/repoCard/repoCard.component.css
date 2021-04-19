@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  margin: 15px;
+  padding: 5px;;
+  border-radius: 15px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.avatarContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.statsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.statsContainer > div {
+  margin: 0 0 10px 10px;
+}
+
+.nameContainer {
+  overflow: hidden;
+  width: 70%;
+}
+
+.descriptionContainer {
+  width: 70%;
+  overflow: hidden;
+  margin-bottom: 0.83em;
+}
+
+.line-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}

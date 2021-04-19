@@ -1,0 +1,22 @@
+<div class="container">
+  <div class="avatarContainer">
+    <app-avatar [avatar_url]="this.repo.owner.avatar_url"></app-avatar>
+  </div>
+  <div>
+    <div class="nameContainer line-clamp">
+      <h2>{{this.repo.name}}</h2>
+    </div>
+    <div class="descriptionContainer line-clamp">{{this.repo.description}}</div>
+    <div class="statsContainer">
+      <div>
+        <app-stars [starsCount]="this.repo.stargazers_count"></app-stars>
+      </div>
+      <div>
+        <app-issues [issuesCount]="this.repo.open_issues_count"></app-issues>
+      </div>
+      <div>
+        <app-time [submissionTime]="this.repo.created_at" [owner]="this.repo.owner"></app-time>
+      </div>
+    </div>
+  </div>
+</div>

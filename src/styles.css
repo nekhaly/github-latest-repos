@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: "main";
+  src: url("assets/fonts/Montserrat-Regular.ttf");
+}
+@font-face {
+  font-family: "main";
+  src: url("assets/fonts/Montserrat-Bold.ttf");
+  font-weight: bold;
+}
+
+body {
+  padding: 10px;
+  font-family: 'main';
+  font-size: 11pt;
+}

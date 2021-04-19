@@ -1,0 +1,13 @@
+.container {
+  display: inline-block;
+}
+.innerContainer {
+  display: flex;
+  flex-basis: auto;
+  border: 1px solid black;
+  border-radius: 12px;
+  padding: 10px;
+}
+.iconContainer {
+  margin-right: 5px;
+}

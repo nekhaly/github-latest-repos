@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.avatarContainer {
+  width: auto;
+}
+.avatar {
+  width: 124px;
+}
